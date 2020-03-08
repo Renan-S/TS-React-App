@@ -1,0 +1,19 @@
+mkdir TS-Project
+mkdir backend
+npm init (Create node_module)
+npm add -D typescript (Add typescript as local)
+npm add express (Web framework to that use http protocol - Connection with front)
+mkdir src
+In backed dir - npm i @types/express -D (Installing the types of express localy)
+yarn tsc --init (Create tsconfig.json)
+[Configure the outDir on tsconfig with ./build]
+yarn tsc (Create index.js and transpose index.ts to this archive)
+node src/index.js (Run server with the app.get and app.listen(portnumber)
+yarn add ts-node-dev -D (Library for autoupdate and constant transpiler)
+yarn dev:server [This run the autorefresh server](Name given to the script on the JSON)
+yarn create react-app frontend --template=typescript (New React app in creating the 'frontend' dir)
+yarn add cors (Router and URL reader)
+In backed dir - npm i @types/cors -D (Installing the types of cors localy)
+yarn add axios (For API call)
+
+
